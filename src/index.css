@@ -14,7 +14,7 @@ body {
   color: #000;
 }
 
-ul, ol {
+ul, ol, li {
   list-style: none;
 }
 
@@ -36,4 +36,8 @@ img {
   max-width: 1200px;
   min-width: 1000px;
   margin: 0 auto;
+}
+
+.ReactModal__Overlay {
+  background: rgba(0, 0, 0, 0.7) !important;
 }
